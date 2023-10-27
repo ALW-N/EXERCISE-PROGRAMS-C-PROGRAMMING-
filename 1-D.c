@@ -21,7 +21,7 @@ int main() {
     printf("The even numbers in the array are: ");
     display_even(arr, n);
     max = find_max(arr, n);
-    printf("The maximum number in the array is: %d\n", max);
+    printf("The greatest number in the array is: %d\n", max);
     calculate_sum_avg(arr, n, &sum, &avg);
     printf("The sum of the numbers in the array is: %d\n", sum);
     printf("The average of the numbers in the array is: %.2f\n", avg);
